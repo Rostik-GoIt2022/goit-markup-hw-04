@@ -223,7 +223,6 @@ button {
 }
 
 .features-item {
-    flex-direction: row;
     width: 270px;
 }
 
@@ -237,6 +236,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 .features-subtitle {
@@ -367,8 +367,8 @@ button {
     margin-right: 10px;
 }
 
-.icon-item:hover .team-icon,
-.icon-item:focus .team-icon {
+.icon-link:hover .team-icon,
+.icon-link:focus .team-icon {
     fill: var(--background-color);   
 }
 
@@ -530,9 +530,6 @@ button {
 
 .footer {
     background-color: #2F303A;
-    
-    margin: 0 auto;
-    max-width: 1600px;
 }
 
 .footer-container {
@@ -615,8 +612,8 @@ button {
     margin-right: 10px;
 }
 
-.box-item:hover .box-icon,
-.box-item:focus .box-icon {
+.box-link:hover .box-icon,
+.box-link:focus .box-icon {
     fill: var(--background-color);
 }
 
