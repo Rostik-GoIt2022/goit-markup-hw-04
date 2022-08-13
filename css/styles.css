@@ -228,7 +228,7 @@ button {
 
 .features-item:not(:last-child) {
     margin-right: 30px;
-}
+} 
 
 .features-box {
     height: 120px;
@@ -402,11 +402,11 @@ button {
 
 .clients-list {
     display: flex;
-    justify-content: center;   
+    justify-content: space-between;   
 }
 
 .clients-iteam {
-    height: 92px;   
+       
 }
 
 .clients-item:not(:last-child) {
@@ -418,15 +418,24 @@ button {
     fill: var(--accent-color);  
 }
 
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--accent-color);
+}
+
 .clients-link {
-    display: inline-block;
+    display: flex;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
 }
 
 .clients-icon {
-    fill: #AFB1B8;          
+    fill: #AFB1B8;
+
 }
 
 /* next page/section portfolio */
